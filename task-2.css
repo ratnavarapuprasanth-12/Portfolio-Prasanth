@@ -63,6 +63,9 @@ header nav ul li a:hover{
     font-style: italic;
     margin-top: 0px;
 }
+.HOME .text i{
+    color: black;
+}
 .ABOUT_ME .discription{
     display: flex;
     flex-direction: column;
@@ -70,7 +73,7 @@ header nav ul li a:hover{
     align-items: center;
 }
 .ABOUT_ME button{
-    width: 8%;
+    width: 100%;
     height: 40px;font-size: 20px;
     color: black;
 
@@ -192,13 +195,40 @@ header nav ul li a:hover{
     font-style: italic;
     text-decoration:underline
 }
-.get-in-touch .container{
+.get-in-touch .c-details{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    height: auto;
 }
-.get-in-touch .img{
-    margin-right: 200px;
+.get-in-touch .c-details label{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.get-in-touch .c-details input{
+    width: 80%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#submit{
+    width: 25%;
+    height: 7%;
+    background-color: white;
+}
+#submit:hover{
+    color: white;
+    background-color: red;
+    border: solid 3px black;
 }
 .CONTACT {
     width: 100%;
